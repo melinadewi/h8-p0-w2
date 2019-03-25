@@ -1,4 +1,4 @@
-//1.Melakukan Looping Menggunakan While
+///1.Melakukan Looping Menggunakan While
 var i = 0;
 console.log('LOOPING PERTAMA')
 while (i<20){

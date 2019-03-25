@@ -1,4 +1,4 @@
-//1. Let's Form a Sentence
+//.1. Let's Form a Sentence
 var word = 'JavaScript';
 var second = 'is';
 var third = 'awesome';
