@@ -21,13 +21,13 @@ DISPLAY "F"
 2. Tahun Kabisat
 Algoritma:
 1. masukkan suatu angka dalam variabel year
-2. hitung year modulo 4
-3. jika year modulo 4 tidak bernilai 0, tulis "Bukan tahun kabisat" dan selesai.
-4. jika year modulo 4 bernilai 0, hitung year modulo 100
-5. jika year modulo 100 tidak bernilai 0, tulis "Tahun kabisat" dan selesai.
-6. jika year modulo 100 bernilai 0, hitung year modulo 400
-7. jika year modulo 400 tidak bernilai 0, tulis "Bukan tahun kabisat" dan selesai.
-8. jika year modulo 400 bernilai 0, tulis "Tahun kabisat" dan selesai.
+2. hitung year modulus 4
+3. jika year modulus 4 tidak bernilai 0, tulis "Bukan tahun kabisat" dan selesai.
+4. jika year modulus 4 bernilai 0, hitung year modulus 100
+5. jika year modulus 100 tidak bernilai 0, tulis "Tahun kabisat" dan selesai.
+6. jika year modulus 100 bernilai 0, hitung year modulus 400
+7. jika year modulus 400 tidak bernilai 0, tulis "Bukan tahun kabisat" dan selesai.
+8. jika year modulus 400 bernilai 0, tulis "Tahun kabisat" dan selesai.
 
 Pseudocode:
 STORE "year" with any value
