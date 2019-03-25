@@ -1,4 +1,4 @@
-///1. Menyusun Barisan Bintang
+//1. Menyusun Barisan Bintang
 var rows1 = 5; // input the number of rows
 
 // do loops to display asterisks in the console.
