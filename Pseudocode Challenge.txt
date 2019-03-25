@@ -1,0 +1,88 @@
+1. Newton Second Law
+Algoritma:
+1. buat variabel m untuk massa berisi angka 600
+2. buat variabel a untuk percepatan benda berisi angka 2
+3. hitung m dikali a
+4. hasil hitung dimasukkan ke variabel F
+5. tampilkan variabel F
+
+Pseudocode:
+STORE "F" without any value
+STORE "m" with 600
+STORE "a" with 2
+
+CALCULATE "m" times "a"
+SET "F" value with calculation result
+
+DISPLAY "F"
+
+
+
+2. Tahun Kabisat
+Algoritma:
+1. masukkan suatu angka dalam variabel year
+2. hitung year modulo 4
+3. jika year modulo 4 tidak bernilai 0, tulis "Bukan tahun kabisat" dan selesai.
+4. jika year modulo 4 bernilai 0, hitung year modulo 100
+5. jika year modulo 100 tidak bernilai 0, tulis "Tahun kabisat" dan selesai.
+6. jika year modulo 100 bernilai 0, hitung year modulo 400
+7. jika year modulo 400 tidak bernilai 0, tulis "Bukan tahun kabisat" dan selesai.
+8. jika year modulo 400 bernilai 0, tulis "Tahun kabisat" dan selesai.
+
+Pseudocode:
+STORE "year" with any value
+
+CALCULATE "year" mod 4
+STORE "remainder4" to the result of calculation
+IF "remainder4" equals to 0
+    CALCULATE "year" mod 100
+    STORE "remainder100" to the result of calculation
+    IF "remainder100" equals to 0
+        CALCULATE "year" mod 400
+        STORE "remainder400" to the result of calculation
+            IF "remainder400" equals to 0
+                DISPLAY "TAHUN KABISAT"
+            ELSE
+                DISPLAY "BUKAN TAHUN KABISAT"
+    ELSE
+        DISPLAY "TAHUN KABISAT"
+ELSE
+    DISPLAY "BUKAN TAHUN KABISAT"
+
+
+3. Laundry Day
+Algoritma:
+1. Masukkan 1 pakaian kotor ke dalam mesin cuci
+2. Selama jumlah pakaian kotor dalam mesin cuci kurang dari 20 (belum semua), lakukan langkah 1.
+3. Nyalakan mesin cuci
+
+Pseudocode:
+STORE "laundry" with 0
+
+WHILE "laundry" < 20
+  ADD "laundry" by 1
+
+DISPLAY "Mesin cuci dinyalakan"
+
+
+4. Periksa Kuku
+Algoritma:
+1. Keliling kelas
+2. Periksa kuku murid
+3. Jika kuku panjang, hukum murid
+4. Jika kuku tidak panjang, puji murid
+5. Selama murid yang diperiksa kukunya belum sampai 40, lakukan langkah 1 sampai langkah 4
+
+
+Pseudocode:
+STORE "murid" with 0
+
+WHILE "murid" < 40
+  DO "keliling kelas"
+  DO "cek kuku"
+  STORE "kuku" to the result
+  IF "kuku" is equal to "kuku panjang"
+	DO "Hukum murid"
+  ELSE
+	DO "Puji murid"
+  ADD "murid" by 1
