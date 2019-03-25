@@ -3,40 +3,40 @@ var bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 1
 var tahun = 1945; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 switch(bulan){
   case 1:
-    bulan = 'Januari'
+    bulan = 'Januari';
     break;
   case 2:
-    bulan = 'Februari'
+    bulan = 'Februari';
     break;
   case 3:
-    bulan = 'Maret'
+    bulan = 'Maret';
     break;
   case 4:
-    bulan = 'April'
+    bulan = 'April';
     break;
   case 5:
-    bulan = 'Mei'
+    bulan = 'Mei';
     break;
   case 6:
-    bulan = 'Juni'
+    bulan = 'Juni';
     break;
   case 7:
-    bulan = 'Juli'
+    bulan = 'Juli';
     break;
   case 8:
-    bulan = 'Agustus'
+    bulan = 'Agustus';
     break;
   case 9:
-    bulan = 'September'
+    bulan = 'September';
     break;
   case 10:
-    bulan = 'Oktober'
+    bulan = 'Oktober';
     break;
   case 11:
-    bulan = 'November'
+    bulan = 'November';
     break;
   case 12:
-    bulan = 'Desember'
+    bulan = 'Desember';
     break;
 }
-console.log(tanggal+' '+bulan+' '+tahun)
+console.log(tanggal+' '+bulan+' '+tahun);
