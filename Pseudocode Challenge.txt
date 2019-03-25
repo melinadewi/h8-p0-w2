@@ -32,13 +32,13 @@ Algoritma:
 Pseudocode:
 STORE "year" with any value
 
-CALCULATE "year" mod 4
+CALCULATE "year" modulo 4
 STORE "remainder4" to the result of calculation
 IF "remainder4" equals to 0
-    CALCULATE "year" mod 100
+    CALCULATE "year" modulo 100
     STORE "remainder100" to the result of calculation
     IF "remainder100" equals to 0
-        CALCULATE "year" mod 400
+        CALCULATE "year" modulo 400
         STORE "remainder400" to the result of calculation
             IF "remainder400" equals to 0
                 DISPLAY "TAHUN KABISAT"
@@ -59,10 +59,13 @@ Algoritma:
 Pseudocode:
 STORE "laundry" with 0
 
-WHILE "laundry" < 20
+WHILE "laundry" less than 20
+  DO "masukkan pakaian kotor"
   ADD "laundry" by 1
 
 DISPLAY "Mesin cuci dinyalakan"
+
+
 
 
 4. Periksa Kuku
@@ -77,7 +80,7 @@ Algoritma:
 Pseudocode:
 STORE "murid" with 0
 
-WHILE "murid" < 40
+WHILE "murid" less than 40
   DO "keliling kelas"
   DO "cek kuku"
   STORE "kuku" to the result
